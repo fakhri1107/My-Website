@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/ftrixweb/fakhriyt.my.id/
+    - /bin/cp -R * $DEPLOYPATH
+    
