@@ -50,3 +50,26 @@ ul{
       color: white;
       font-family: sans-serif;
   }
+  .link{
+    display: block;
+    background-color: teal;
+    color: wheat;
+    font-family: var(--font);
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 17px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: all .25s cubic-bezier(.08,.59,.29,.99);
+    border: solid black 2px;
+}
+.link:hover{
+    background-color: wheat;
+    color: teal;
+}
+#links{
+    max-width: 675px;
+    width: auto;
+    display: block;
+    margin: 27px auto;
+}
