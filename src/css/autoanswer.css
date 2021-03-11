@@ -16,7 +16,7 @@
     width: 450px;
 }
 body{
-    background-color: dimgray;
+    background-color: #031a25;
 }
 button{
     margin: auto;
@@ -25,4 +25,28 @@ button{
     padding-right: 2em;
     padding-left: 2em;
     background-color: transparent;
+    color: wheat;
+    background-color: teal;
+    border-color: transparent;
 }
+p{
+    font-size: 1em;
+    font-family: sans-serif;
+    color:mintcream;
+}
+ul{
+    background-color: transparent;
+    list-style-type: disc;
+    transition: ease-in 400em;
+}
+.divparagraph{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+  }
+  li{
+      font-size: 1em;
+      color: white;
+      font-family: sans-serif;
+  }
