@@ -1,6 +1,28 @@
 
 .title{
-    font-size: 20px;
+    font-size: 35px;
     font-weight: bold;
     align-items: center;
+    font-family: arial;
+}
+.divstyle{
+    margin: auto;
+    border-radius: .5em;
+    padding: 3em;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    box-shadow: 0.5em 0.5em 1.5em #0a0a0f, -0.5em -0.5em 1.5em #323232;
+    transition:ease-out 300ms;
+    width: 450px;
+}
+body{
+    background-color: dimgray;
+}
+button{
+    margin: auto;
+    border-radius: 20px;
+    padding: 1em;
+    padding-right: 2em;
+    padding-left: 2em;
+    background-color: transparent;
 }
